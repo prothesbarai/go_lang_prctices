@@ -2,8 +2,8 @@ package main
 import "fmt"
 
 func main(){
-	fmt.Print("=================== Simple User Input Program =================\n")
+	fmt.Print("\n=================== Simple User Input Program =================\n")
 	simpleUserInputProgram()
-	fmt.Print("=================== Circle Area Calculations =================\n")
+	fmt.Print("\n\n=================== Circle Area Calculations =================\n")
 	circleAreaCalculation()
 }
