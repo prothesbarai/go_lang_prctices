@@ -23,4 +23,4 @@ func nestedElseIf(){
 	}else{
 		fmt.Print("Invalid Marks")
 	}
-}
+} 
