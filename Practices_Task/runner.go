@@ -6,4 +6,6 @@ func main(){
 	simpleUserInputProgram()
 	fmt.Print("\n\n=================== Circle Area Calculations =================\n")
 	circleAreaCalculation()
+	fmt.Print("\n\n=================== Positive Negative Zero Number Checker =================\n")
+	positiveNegativeNumberCheck()
 }
