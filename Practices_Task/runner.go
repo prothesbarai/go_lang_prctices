@@ -8,4 +8,6 @@ func main(){
 	circleAreaCalculation()
 	fmt.Print("\n\n=================== Positive Negative Zero Number Checker =================\n")
 	positiveNegativeNumberCheck()
+	fmt.Print("\n\n=================== Month Position With Month Name Checker =================\n")
+	monthChecker()
 }

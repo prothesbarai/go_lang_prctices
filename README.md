@@ -2,6 +2,8 @@ go run main.go
 
 go run ./Else_If_Switch
 
+go run ./For_Loop
+
 go run Get_User_Input/user_input.go
 
 go run ./Practices_Task
