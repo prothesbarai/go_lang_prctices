@@ -27,5 +27,5 @@ func loopWithConditon(){
 
 
 func miniProjectSimpleCalculator(){
-
+	
 }
