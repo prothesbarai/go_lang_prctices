@@ -23,9 +23,3 @@ func loopWithConditon(){
 		}
 	}
 }
-
-
-
-func miniProjectSimpleCalculator(){
-	fmt.Print("The Day")
-}
