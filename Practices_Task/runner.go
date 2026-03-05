@@ -10,6 +10,11 @@ func main(){
 	// positiveNegativeNumberCheck()
 	// fmt.Print("\n\n=================== Month Position With Month Name Checker =================\n")
 	// monthChecker()
-	fmt.Print("\n\n=================== Calculator multiple operations + loop =================\n")
-	calculatorMultipleOperationsLoop()
+	//fmt.Print("\n\n=================== Factorial Number =================\n")
+	//factorialNumberCalculate()
+	fmt.Print("\n\n=================== Multiplication Table =================\n")
+	multiplicationTable()
+	
+	//fmt.Print("\n\n=================== Calculator multiple operations + loop =================\n")
+	//calculatorMultipleOperationsLoop()
 }
