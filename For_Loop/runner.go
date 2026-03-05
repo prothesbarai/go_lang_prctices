@@ -6,6 +6,8 @@ func main(){
 	basicForLoop()
 	fmt.Print("\n======================== Condition For Loop =====================\n")
 	loopWithConditon()
+	fmt.Print("\n======================== Range For Loop =====================\n")
+	loopWithRange()
 	fmt.Print("\n======================== Mini Project: Simple Calculator =====================\n")
 	miniProjectSimpleCalculator()
 }

@@ -1,5 +1,7 @@
 package main
 import "fmt"
+
+
 func basicForLoop(){
 	count := 0
 	fmt.Print("Enter Basic Loop Length : ")
@@ -23,6 +25,17 @@ func loopWithConditon(){
 		}
 	}
 }
+
+
+
+func loopWithRange(){
+	for index,value := range []string{"Go","Java","Python","MySQL","Firebase","HTML","CSS","etc"}{
+		fmt.Printf("index : %d => Value : %s\n",index,value)
+	}
+}
+
+
+
 
 func miniProjectSimpleCalculator(){
 	var fnum,lnum float64
