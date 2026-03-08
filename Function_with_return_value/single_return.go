@@ -12,7 +12,7 @@ func singleReturnFunc() {
 
 	result := singleReturnFuncTask(num1, num2)
 
-	fmt.Print("Final Output",result)
+	fmt.Print("Final Output : ",result)
 }
 
 func singleReturnFuncTask(num1 float64, num2 float64) float64 {
