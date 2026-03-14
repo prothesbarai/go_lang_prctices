@@ -21,7 +21,6 @@ func main() {
 func finding(maxMin []int)(int,int){
 	max := maxMin[0]
 	min := maxMin[0]
-
 	for _, num:=range maxMin {
 		if(num > max){
 			max = num
@@ -30,6 +29,5 @@ func finding(maxMin []int)(int,int){
 			min = num
 		}
 	}
-
 	return max,min
 }
