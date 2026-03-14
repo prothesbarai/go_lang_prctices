@@ -1,5 +1,7 @@
 go run main.go
 
+go run test/test_exm.go
+
 go run ./Else_If_Switch
 
 go run ./For_Loop
