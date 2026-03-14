@@ -1,33 +1,16 @@
 package main
 
-import "fmt"
-
-func main() {
-	var n int
-	fmt.Print("Enter Size of Integer Array : ")
-	fmt.Scan(&n)
-	var numbers = make([]int,n)
-
-	for i := 0; i < n; i++ {
-		fmt.Printf("Enter Number Position-%d : ",i)
-		fmt.Scan(&numbers[i])
-	}
-	max,min := finding(numbers)
-
-	fmt.Printf("Maximum : %d\nMinimum : %d",max,min)
+import (
+	"fmt"
+)
+type User struct {
+	Name  string
+	Age   int
+	Email string
 }
 
-
-func finding(maxMin []int)(int,int){
-	max := maxMin[0]
-	min := maxMin[0]
-	for _, num:=range maxMin {
-		if(num > max){
-			max = num
-		}
-		if(num < min){
-			min = num
-		}
-	}
-	return max,min
+func main() {
+	user1 := User{Name: "Prothes", Age: 12, Email: "email"}
+	fmt.Print(user1)
+	fmt.Printf("%T",user1)
 }

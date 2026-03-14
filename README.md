@@ -13,3 +13,5 @@ go run ./Function_with_return_value
 go run ./Practices_Task
 
 go run String_Concatenation/string_concatenation.go
+
+go run ./Struct
